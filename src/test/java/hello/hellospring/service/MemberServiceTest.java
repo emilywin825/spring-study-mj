@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class MemberServiceTest {
     MemberService memberService;
     MemoryMemberRepository memberRepository;
-    @BeforeEach
+    @BeforeEach //각 테스트 실행 전에 호출
     public void beforeEach() {
         memberRepository = new MemoryMemberRepository();
         memberService = new MemberService(memberRepository);
