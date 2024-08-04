@@ -1,4 +1,4 @@
-package hello.hellospring.domain;
+package hello.hellospring.domain.Member.entity;
 
 public class Member {
 

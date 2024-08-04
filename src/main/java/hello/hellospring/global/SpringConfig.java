@@ -1,8 +1,8 @@
-package hello.hellospring;
+package hello.hellospring.global;
 
-import hello.hellospring.repository.MemberRepository;
-import hello.hellospring.repository.MemoryMemberRepository;
-import hello.hellospring.service.MemberService;
+import hello.hellospring.domain.Member.repository.MemberRepository;
+import hello.hellospring.domain.Member.repository.MemoryMemberRepository;
+import hello.hellospring.domain.Member.service.MemberService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

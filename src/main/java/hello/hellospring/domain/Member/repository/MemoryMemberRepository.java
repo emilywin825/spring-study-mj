@@ -1,8 +1,6 @@
-package hello.hellospring.repository;
+package hello.hellospring.domain.Member.repository;
 
-import hello.hellospring.domain.Member;
-import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Repository;
+import hello.hellospring.domain.Member.entity.Member;
 
 import java.util.*;
 
